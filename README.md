@@ -49,7 +49,7 @@ The workflow are outlined as follows:
 ![c10](https://user-images.githubusercontent.com/51057490/83918974-a59e9d00-a771-11ea-8a28-881d668a8802.JPG)
 
 
-# SIGNIFICANCE
+# Significance
 
 - This can be used to build an Image Dataset or Database
 
@@ -67,7 +67,7 @@ The workflow are outlined as follows:
 
 
 
-
+                                             .
 
 
 **P.S**: I had to fail (tune) the Training Process a little bit, so that the cropped image has a little background
