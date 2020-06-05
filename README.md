@@ -18,7 +18,7 @@ The workflow are outlined as follows:
 - Train the Pretrained RetinaNet by specifying a backbone (I used Retina50) and save the learned parameters after each epochs
 - Convert the saved model to an inference graph to test on unseeen data
 - Save the results as a Pandas DataFrame using the corresponding datapoints after testing on the test data
-- Use OPENCV's imwrite function to save the cropped image to a folder
+- Use OpenCV's imwrite function to save the cropped image to a folder
 
 # Results
 ![220](https://user-images.githubusercontent.com/51057490/83917973-b221f600-a76f-11ea-8484-c82f6f8f0780.jpg) ![c5](https://user-images.githubusercontent.com/51057490/83918046-daa9f000-a76f-11ea-8543-64252f236f99.JPG)
@@ -52,5 +52,22 @@ The workflow are outlined as follows:
 # SIGNIFICANCE
 
 - This can be used to build an Image Dataset or Database
+
+# Stack Technologies
+
+- Python 3.7
+- Tensorflow 2.x
+- Keras
+- Numpy 
+- OpenCV
+- Matplotlib
+- Pillow
+- Pandas
+
+
+
+
+
+
 
 **P.S**: I had to fail (tune) the Training Process a little bit, so that the cropped image has a little background
